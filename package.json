@@ -1,0 +1,35 @@
+{
+  "name": "virtual-assistant-web-panel",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Admin panel for virtual assistant bot",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Anthony Kelani",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "compression": "^1.5.2",
+    "cookie-parser": "^1.4.3",
+    "csurf": "^1.9.0",
+    "express": "^4.14.0",
+    "express-stormpath": "^3.1.5",
+    "forms": "^1.2.0",
+    "glob": "^6.0.4",
+    "jade": "^1.11.0",
+    "method-override": "^2.3.0",
+    "morgan": "^1.6.1",
+    "serve-favicon": "^2.3.0",
+    "xtend": "^4.0.1"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-develop": "^0.4.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "request": "^2.60.0",
+    "time-grunt": "^1.2.1",
+    "load-grunt-tasks": "^3.2.0"
+  }
+}
